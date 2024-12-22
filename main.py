@@ -10,7 +10,7 @@ init(autoreset=True)
 undo_stack = []
 redo_stack = []
 
-"____________________________________Utility Functions____________________________________"
+"_______Utility Functions_______"
 
 
 def is_ignored(file_path):
@@ -42,7 +42,7 @@ def get_current_commit():
     return head
 
 
-"____________________________________Initializes the .trek folder____________________________________"
+"_______Initializes the .trek folder_______"
 
 
 def init():
@@ -71,7 +71,7 @@ def init():
     )
 
 
-"____________________________________Adds Files to the Staging Area (Index)____________________________________"
+"_______Adds Files to the Staging Area (Index)_______"
 
 
 def add(files):
@@ -116,7 +116,7 @@ def add(files):
     )
 
 
-"____________________________________Commits (Saves) those Changes____________________________________"
+"_______Commits (Saves) those Changes_______"
 
 
 def commit(message):
